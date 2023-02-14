@@ -137,34 +137,3 @@ $(window).mousedown(function (event) {
         $("#time_text").click();
     }
 });
-
-//控制台输出
-var styleTitle1 = `
-font-size: 20px;
-font-weight: 600;
-color: rgb(244,167,89);
-`
-var styleTitle2 = `
-font-size:12px;
-color: rgb(244,167,89);
-`
-var styleContent = `
-color: rgb(30,152,255);
-`
-var title1 = 'Snavigation'
-var title2 = `
- _____ __  __  _______     ____     __
-|_   _|  \\/  |/ ____\\ \\   / /\\ \\   / /
-  | | | \\  / | (___  \\ \\_/ /  \\ \\_/ / 
-  | | | |\\/| |\\___ \\  \\   /    \\   /  
- _| |_| |  | |____) |  | |      | |   
-|_____|_|  |_|_____/   |_|      |_|                                                     
-`
-var content = `
-版 本 号：1.1
-更新日期：2022-07-12
-
-Github:  https://github.com/imsyy/Snavigation
-`
-console.log(`%c${title1} %c${title2}
-%c${content}`, styleTitle1, styleTitle2, styleContent)
